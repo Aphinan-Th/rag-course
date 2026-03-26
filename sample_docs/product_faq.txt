@@ -1,0 +1,60 @@
+Product FAQ — SmartAssist Platform
+TechCorp Thailand Co., Ltd.
+
+=== GENERAL QUESTIONS ===
+
+Q: What is SmartAssist?
+A: SmartAssist is an AI-powered customer support platform that helps businesses automate and improve their customer service operations. It combines a live chat interface, AI chatbot, and a ticketing system in one platform.
+
+Q: Which languages does SmartAssist support?
+A: SmartAssist currently supports Thai, English, and Mandarin Chinese. Additional languages are planned for the Q3 2025 release.
+
+Q: Is SmartAssist available on mobile?
+A: Yes. SmartAssist has native iOS and Android apps for agents, as well as a mobile-responsive web interface for customers.
+
+=== PRICING ===
+
+Q: What are the pricing plans?
+A: SmartAssist offers three plans:
+- Starter: 2,900 THB/month — up to 3 agents, 1,000 conversations/month
+- Professional: 7,900 THB/month — up to 15 agents, unlimited conversations
+- Enterprise: Custom pricing — unlimited agents, dedicated support, SLA guarantee
+
+Q: Is there a free trial?
+A: Yes. All plans include a 14-day free trial with no credit card required.
+
+Q: Can I change my plan later?
+A: Yes. You can upgrade or downgrade your plan at any time. Changes take effect on the next billing cycle.
+
+=== REFUND POLICY ===
+
+Q: What is the refund policy?
+A: We offer a 30-day money-back guarantee for all new subscriptions. If you are not satisfied within the first 30 days, contact support@techcorp.co.th for a full refund. After 30 days, refunds are not available for partially used billing periods.
+
+Q: How do I cancel my subscription?
+A: You can cancel your subscription at any time from the Account Settings page. Your account will remain active until the end of the current billing period.
+
+=== TECHNICAL ===
+
+Q: What integrations does SmartAssist support?
+A: SmartAssist integrates with Salesforce, HubSpot, Zendesk, LINE OA, Facebook Messenger, and major e-commerce platforms including Shopee and Lazada. A REST API is available for custom integrations.
+
+Q: What is the uptime SLA?
+A: Enterprise customers receive a 99.9% uptime SLA. Starter and Professional plans target 99.5% uptime.
+
+Q: How is customer data stored?
+A: All data is stored in encrypted form on servers located in Singapore (AWS ap-southeast-1). Data is backed up daily with a 30-day retention window.
+
+Q: Does SmartAssist support single sign-on (SSO)?
+A: SSO via SAML 2.0 and OAuth 2.0 is available on the Professional and Enterprise plans.
+
+=== SUPPORT ===
+
+Q: How can I contact support?
+A: Support is available via:
+- Email: support@techcorp.co.th (response within 24 hours)
+- Live chat: Available in-platform, Monday–Friday 9:00 AM – 6:00 PM (ICT)
+- Phone: +66 2 123 4567 (Enterprise customers only)
+
+Q: Is there documentation available?
+A: Yes. Full documentation, API reference, and video tutorials are available at docs.techcorp.co.th.

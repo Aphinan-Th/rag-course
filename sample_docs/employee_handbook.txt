@@ -1,0 +1,66 @@
+Employee Handbook
+TechCorp Thailand Co., Ltd.
+Engineering Division
+
+=== ONBOARDING ===
+
+Week 1
+New engineers will attend a 2-day company orientation covering culture, tools, and policies. You will be assigned an onboarding buddy from the team to help you get settled.
+
+Required Accounts Setup
+By the end of Week 1 you should have access to:
+- Slack (primary communication tool)
+- GitHub (code repository)
+- Jira (project management)
+- Confluence (internal wiki)
+- AWS Console (request access from IT)
+
+Development Environment
+Your laptop will come pre-configured. However, you are expected to set up your personal dev environment using our standard dotfiles repo: github.com/techcorp-th/dotfiles
+
+=== ENGINEERING CULTURE ===
+
+We follow an agile development process with 2-week sprints. Sprint planning happens every other Monday. Daily standup is at 9:30 AM on Slack (async).
+
+Code Reviews
+All code must be reviewed by at least one peer before merging. Pull requests should be small and focused. Use GitHub PRs and tag the relevant team member.
+
+Documentation
+Document what you build. Use Confluence for architecture decisions and Jira for task tracking. Add README files to every repository.
+
+=== CAREER DEVELOPMENT ===
+
+Performance Reviews
+Performance reviews are held twice a year — in June and December. You will set quarterly OKRs with your manager.
+
+Promotion Criteria
+- Junior Engineer → Engineer: 1 year + demonstrated ownership of features
+- Engineer → Senior Engineer: 2-3 years + mentoring + technical leadership
+- Senior Engineer → Staff Engineer: 4+ years + cross-team impact
+
+Learning Budget
+Each engineer receives 15,000 THB/year for courses, books, and conferences. Submit receipts via the expense system with the category "Learning & Development".
+
+=== TOOLS & STACK ===
+
+Backend: Python (FastAPI), Go
+Frontend: React, TypeScript
+Infrastructure: AWS, Terraform
+CI/CD: GitHub Actions
+Monitoring: Datadog, Sentry
+Communication: Slack, Notion, Confluence
+
+=== WORKING HOURS ===
+
+Core Hours
+Core hours are 10:00 AM – 4:00 PM ICT. Outside these hours, async communication is preferred.
+
+Overtime
+Overtime is not expected as a regular practice. If a deadline requires extra hours, discuss with your manager. Overtime compensation is provided per Thai labor law.
+
+=== CONTACTS ===
+
+HR: hr@techcorp.co.th
+IT Support: it@techcorp.co.th | ext. 100
+Office Manager: office@techcorp.co.th
+Engineering Lead: eng-lead@techcorp.co.th

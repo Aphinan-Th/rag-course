@@ -1,0 +1,58 @@
+Company Policy Document
+TechCorp Thailand Co., Ltd.
+Last Updated: January 2025
+
+=== LEAVE POLICY ===
+
+Annual Leave
+Employees are entitled to 10 days of annual leave per year. Leave must be requested at least 3 days in advance through the HR system. Unused leave can be carried over up to a maximum of 5 days to the following year.
+
+Sick Leave
+Employees are entitled to 30 days of paid sick leave per year. A medical certificate is required for absences of 3 or more consecutive days. Sick leave does not carry over to the next year.
+
+Maternity Leave
+Female employees are entitled to 90 days of maternity leave, of which 45 days are paid at full salary.
+
+Paternity Leave
+Male employees are entitled to 3 days of paid paternity leave within 30 days of the child's birth.
+
+=== WORK FROM HOME POLICY ===
+
+Eligibility
+Employees who have passed their 3-month probation period are eligible for Work From Home (WFH).
+
+WFH Days
+Employees may work from home up to 2 days per week. WFH days must be approved by the direct manager by Thursday of the preceding week.
+
+Requirements
+- Reliable internet connection (minimum 20 Mbps)
+- A quiet, dedicated workspace
+- Available on Slack and video calls during working hours (9:00 AM – 6:00 PM)
+
+=== EXPENSE REIMBURSEMENT POLICY ===
+
+Eligible Expenses
+- Business travel (flights, hotels, transportation)
+- Client meals (up to 1,500 THB per person)
+- Work equipment pre-approved by IT
+
+Submission Process
+All expenses must be submitted within 30 days of the expense date using the company expense form. Receipts are required for any expense over 200 THB. Reimbursements are processed on the 15th of each month.
+
+Travel Advance
+Employees may request a travel advance of up to 20,000 THB for international trips by submitting the form 5 business days before departure.
+
+=== CODE OF CONDUCT ===
+
+TechCorp is committed to a respectful, inclusive, and professional workplace. Discrimination, harassment, or any form of misconduct will not be tolerated. Violations should be reported to HR at hr@techcorp.co.th.
+
+=== IT SECURITY POLICY ===
+
+Password Policy
+Passwords must be at least 12 characters and changed every 90 days. Two-factor authentication (2FA) is mandatory for all company accounts.
+
+Device Policy
+Company laptops must not be used for personal purposes or to install unauthorized software. All devices must run company-approved antivirus software.
+
+Data Handling
+Confidential company data must not be stored on personal devices or shared via personal email accounts.
