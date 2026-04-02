@@ -9,4 +9,5 @@ dependencies = [
     "jupyter>=1.0.0",
     "notebook>=7.0.0",
     "pypdf>=4.0.0",
+    "openai>=2.30.0",
 ]
