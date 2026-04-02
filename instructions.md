@@ -5,9 +5,13 @@
 
 - Python 3.10 or higher
 - `uv` installed — [docs.astral.sh/uv](https://docs.astral.sh/uv/getting-started/installation/)
-- Google AI Studio API Key — [aistudio.google.com](https://aistudio.google.com) → Get API Key
 - A code editor (VS Code recommended)
 - Basic Python knowledge
+
+**API Key — choose one (or both):**
+
+- **Google AI Studio** (default) — [aistudio.google.com](https://aistudio.google.com) → Get API Key
+- **OpenRouter** — [openrouter.ai/keys](https://openrouter.ai/keys) → Create Key
 
 ---
 
@@ -49,7 +53,9 @@ That's it — `uv` reads `pyproject.toml` and installs everything automatically.
 
 ---
 
-## 4. Set Your Google API Key
+## 4. Set Your API Key
+
+### Option A — Google AI Studio (default workshop)
 
 ```bash
 # Mac / Linux
@@ -62,10 +68,25 @@ set GOOGLE_API_KEY=AIza...
 $env:GOOGLE_API_KEY="AIza..."
 ```
 
+### Option B — OpenRouter
+
+```bash
+# Mac / Linux
+export OPENROUTER_API_KEY="sk-or-..."
+
+# Windows (Command Prompt)
+set OPENROUTER_API_KEY=sk-or-...
+
+# Windows (PowerShell)
+$env:OPENROUTER_API_KEY="sk-or-..."
+```
+
 Or create a `.env` file in the project root:
 
 ```
+# Choose one (or both)
 GOOGLE_API_KEY=AIza...
+OPENROUTER_API_KEY=sk-or-...
 ```
 
 ---
@@ -73,7 +94,11 @@ GOOGLE_API_KEY=AIza...
 ## 5. Launch Jupyter Notebook
 
 ```bash
+# Google AI Studio version (default)
 uv run jupyter notebook workshop.ipynb
+
+# OpenRouter version
+uv run jupyter notebook workshop_openrouter.ipynb
 ```
 
 ---
@@ -82,9 +107,10 @@ uv run jupyter notebook workshop.ipynb
 
 ```
 rag-system/
-├── instructions.md       ← You are here
-├── pyproject.toml        ← Python dependencies (uv)
-├── workshop.ipynb        ← Hands-on notebook (main code)
+├── instructions.md           ← You are here
+├── pyproject.toml            ← Python dependencies (uv)
+├── workshop.ipynb            ← Hands-on notebook (Google AI Studio)
+├── workshop_openrouter.ipynb ← Hands-on notebook (OpenRouter)
 └── sample_docs/
     ├── company_policy.txt
     ├── product_faq.txt
@@ -95,13 +121,25 @@ rag-system/
 
 ## Models Used in This Workshop
 
+### Google AI Studio (`workshop.ipynb`)
+
 | Component       | Model                  | Cost (approx)         |
 |-----------------|------------------------|-----------------------|
 | Embeddings      | text-embedding-004     | Free tier available   |
 | LLM             | gemini-2.0-flash       | Free tier available   |
 | Vector Database | ChromaDB (local)       | Free                  |
 
-The workshop runs entirely within the **Google AI Studio free tier**.
+The default workshop runs entirely within the **Google AI Studio free tier**.
+
+### OpenRouter (`workshop_openrouter.ipynb`)
+
+| Component       | Model                          | Cost (approx)       |
+|-----------------|--------------------------------|---------------------|
+| Embeddings      | openai/text-embedding-3-small  | Pay-per-use         |
+| LLM             | openai/gpt-4o-mini             | Pay-per-use         |
+| Vector Database | ChromaDB (local)               | Free                |
+
+OpenRouter gives you access to many models — swap `LLM_MODEL` in the notebook to try others (e.g. `anthropic/claude-3-haiku`, `meta-llama/llama-3-8b-instruct`).
 
 ---
 
